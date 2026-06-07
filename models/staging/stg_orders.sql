@@ -7,6 +7,6 @@ select
     order_total
     
 
-    FROM raw_orders
+    FROM `alien-walker-136623`.`jaffle_shop`.`raw_orders`
 
 
