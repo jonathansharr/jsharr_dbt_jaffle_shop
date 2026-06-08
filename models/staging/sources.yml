@@ -3,6 +3,7 @@ version: 2
 
 sources:
   - name: raw_jaffle_shop           # The logical name used in dbt
+    database: alien-walker-136623   # The BigQuery project
     schema: jaffle_shop_raw         # The exact BigQuery Dataset containing the raw data
     tables:
       - name: raw_customers             
